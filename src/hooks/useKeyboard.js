@@ -3,8 +3,8 @@ import { useEffect, useState } from "react"
 const ACTIONS_KEYBOARD_MAP = {
     KeyW: 'moveForward',
     KeyS: 'moveBackward',
-    KeyA: 'left',
-    KeyD: 'right',
+    KeyA: 'moveLeft',
+    KeyD: 'moveRight',
     Space: 'jump',
     Digi1: 'dirt',
     Digi2: 'grass',
